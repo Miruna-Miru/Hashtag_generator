@@ -56,9 +56,3 @@ This project is a simple web application that generates relevant **hashtags** ba
 
 ---
  
-│   │   └── App.css
-|   |   └── assets\ 
-|   |   └── index.css
-|   |   └── index.js
-│   ├── public/
-│   └── package.json
