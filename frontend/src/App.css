@@ -1,0 +1,128 @@
+/* === Global Reset === */
+body {
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* === Theme Colors === */
+body.light {
+  background-color: #ffffff;
+  color: #222;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* === App Container === */
+.App {
+  max-width: 700px;
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* === Theme Toggle Button === */
+.theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+
+.theme-toggle button {
+  font-size: 24px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* === Form === */
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-top: 10px;
+  resize: none;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  background-color: inherit;
+  color: inherit;
+}
+
+/* === Submit Button === */
+button[type='submit'] {
+  margin-top: 15px;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  background-color: #0077ff;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button[type='submit']:hover {
+  background-color: #005fcc;
+}
+
+/* === Dark Theme Adjustments === */
+body.dark textarea {
+  background-color: #1e1e1e;
+  border: 1px solid #444;
+}
+
+body.dark button[type='submit'] {
+  background-color: #bb86fc;
+}
+
+body.dark button[type='submit']:hover {
+  background-color: #9a64db;
+}
+
+/* === Hashtag Results === */
+.results {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 18px;
+}
+
+/* === Copy Button === */
+.copy-btn {
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.copy-btn:hover {
+  background-color: #218838;
+}
+
+/* === Spinner === */
+.spinner {
+  font-size: 18px;
+  margin-top: 15px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
