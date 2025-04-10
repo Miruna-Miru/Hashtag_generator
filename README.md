@@ -1,6 +1,6 @@
 # #️⃣ Hashtag Generator ✨
 
-This project is a simple web application that generates relevant **hashtags ** based on the content you input—like blog posts, captions, or social media updates. It uses **Natural Language Processing (NLP)** to extract meaningful keywords .
+This project is a simple web application that generates relevant **hashtags** based on the content you input—like blog posts, captions, or social media updates. It uses **Natural Language Processing (NLP)** to extract meaningful keywords .
 
 ---
 
@@ -55,17 +55,7 @@ This project is a simple web application that generates relevant **hashtags ** b
   A custom-built Python dictionary or matcher that appends suitable emojis to each hashtag (e.g., `#Travel ✈️`, `#Foodie 🍔`, `#Coding 👨‍💻`).
 
 ---
-
-## 📁 Project Structure
-
-Hashtag_generator/
-├── backend/
-│   ├── app.py           
-│   ├── generator.py     
-│   └── requirements.txt
-├── frontend/
-│   ├── src/
-│   │   ├── App.js       
+ 
 │   │   └── App.css
 |   |   └── assets\ 
 |   |   └── index.css
